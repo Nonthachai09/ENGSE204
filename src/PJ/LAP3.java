@@ -8,12 +8,12 @@ public class LAP3 {
 		Scanner sc2 = new Scanner(System.in);
 		
 		System.out.print("Enter our Number : ");
-		double Number = sc2.nextDouble();
+		int Number = sc2.nextInt();
 		
 		if (Number % 2 == 0) {
-			System.out.println("Even");
+			System.out.println(Number + " Even");
 		}else {
-			System.out.println("Odd");
+			System.out.println(Number + " Odd");
 		}
 		
 		sc2.close();
